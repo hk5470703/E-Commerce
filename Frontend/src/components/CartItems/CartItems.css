@@ -1,0 +1,107 @@
+.cartitems{
+    margin: 100px 170px;
+}
+.cartitems hr{
+    height: 3px;
+    background: #e2e2e2;
+    border: 0;
+}
+.cartitems-format-main{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 75px;
+    padding: 20px 0px;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 600;
+}
+.cartitems-format{
+    font-size: 17px;
+    font-weight: 500;
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: start;
+    gap: 85px;
+}
+
+.cartitems-quantity{
+    height: 50px;
+    width: 64px;
+    border: 2px solid #ebebeb;
+    background: #fff;
+}
+.carticon-product-icon{
+    height: 62px;
+    
+}
+.cartitems-remove-icon{
+    width: 15px;
+    margin: 0px 40px;
+    cursor: pointer;
+}
+
+.cart-total{
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    gap: 50px;
+    font-size: 18px;
+    margin-top: 5%;
+
+}
+.cart-first{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cart-total-details{
+    display: flex;
+    justify-content: space-between;
+    color: #555;
+}
+.cart-promocode{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cart-first button{
+    width: 100%;
+    color: white;
+    background-color: tomato;
+    border-radius: 4px;
+    font-weight: 600;
+    margin-right: 0px;
+    padding: 15px;
+    margin-top: 10px;
+    border: 0;
+}
+.cart-promocode-input{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.cart-promocode-input input{
+    padding: 10px;
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    border: 0;
+    background-color: rgb(229, 229, 229);
+    padding-left:  10px;
+    padding-right: 300px;
+    
+}
+.cart-promocode-input button{
+    background-color: black;
+    border-radius: 4px;
+   margin-right: 0px;
+   position: absolute;
+   padding: 10px;
+   margin-top: 10px;
+   color: white;
+   border: 0;
+}
